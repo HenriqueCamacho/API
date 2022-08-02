@@ -1,0 +1,16 @@
+package com.algaworks.algafood;
+
+import org.springframework.context.annotation.Configuration;
+
+import com.algaworks.algafood.di.notificacao.NotificadorEmail;
+
+//Classe de configuração
+
+@Configuration //Definição de Beans
+public class AlgaConfig {
+	public NotificadorEmail notificadorEmail() {
+		NotificadorEmail notificadorEmail = new NotificadorEmail("smtp.algamail.com.br")
+				
+	}
+	
+}

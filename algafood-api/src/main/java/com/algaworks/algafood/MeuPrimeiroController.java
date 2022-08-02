@@ -29,6 +29,6 @@ public class MeuPrimeiroController {
 			
 		ativacaoClienteService.ativar(henrique);
 		
-		return "Go fuck yourself";
+		return "something";
 	}
 }

@@ -1,0 +1,10 @@
+package com.algaworks.algafood;
+
+import org.springframework.context.annotation.Configuration;
+
+//Classe de configuração
+
+@Configuration
+public class AlgaConfig {
+	
+}
